@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Chat</title>
+</head>
+<body>
+    <h2>Connexion</h2>
+    {% if error %}
+        <p style="color:red">{{ error }}</p>
+    {% endif %}
+    <form method="POST">
+        <input name="pseudo" placeholder="Ton pseudo" required>
+        <input name="password" placeholder="Mot de passe" type="password" required>
+        <button type="submit">Se connecter</button>
+    </form>
+</body>
+</html>
