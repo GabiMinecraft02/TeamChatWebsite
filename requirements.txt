@@ -1,9 +1,9 @@
-Flask==2.3.4
+Flask
 
-flask-socketio==6.3.2
+flask-socketio
 
-python-socketio==5.9.0
+python-socketio
 
-supabase==1.0.6
+supabase
 
-eventlet==0.33.3
+eventlet
